@@ -9,5 +9,5 @@
   ],
   "start_url": "https://togi89.github.io/ubiquitous-umbrella/",
   "display": "standalone",
-  "prefer_related_applications": true,
+  "prefer_related_applications": false,
 }
