@@ -8,14 +8,14 @@
 <style type="text/tailwindcss">
 @media screen and (orientation: portrait) {
   html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
+    transform: rotate(90deg);
+    transform-origin: right top;
     width: 100vh;
     height: 100vw;
     overflow-x: hidden;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
   }
 }
   @theme {
@@ -35,7 +35,7 @@
 </head>
 
 <body>
-<div class="h-screen w-screen">
+<div class="">
   <header class="flex flex-row bg-[#EF3138] p-1 gap-5 items-center relative">
     <img src="https://css.s-hawaiianairlines.com/Content/assets/images/logos/ha-logo-horizontal.png" alt=""
       class="h-min" />
