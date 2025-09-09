@@ -14,5 +14,6 @@
     ],
     "start_url": "https://togi89.github.io/ubiquitous-umbrella/",
     "display": "standalone",
-    "prefer_related_applications": false
+    "prefer_related_applications": false,
+    "orientation": "landscape-primary"
 }
