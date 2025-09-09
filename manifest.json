@@ -6,7 +6,7 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
   "start_url": "https://togi89.github.io/ubiquitous-umbrella/",
   "display": "standalone",
   "prefer_related_applications": true,
