@@ -4,9 +4,7 @@
       
   </head>
 
-
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="manifest" href="manifest.json" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
         @theme {
             --color-clifford: #ffffff;
@@ -507,7 +505,7 @@
         <div class="p-2 border-2 border-purple-800 col-start-3 rounded row-span-2 row-start-8" id="component-container">
           <h1 class="text-lg font-bold">Average Times</h1>
 
-          <div class="flex flex-row gap-4 flex-wrap justify-evenly items-center">
+          <div class="flex flex-row gap-2 flex-wrap justify-evenly">
 
             <div class="flex flex-col">
               <span class="text-gray-500 uppercase text-sm">dep. taxi</span>
@@ -521,12 +519,12 @@
                 </svg>
                 <!-- Value Text -->
                 <div class="absolute top-1/2 start-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                  <span class="text-xl text-purple-700 font-bold">10</span>
-                  <span class="block  text-purple-700">min</span>
+                  <span class="text-xl font-bold">10</span>
+                  <span class="block">min</span>
                 </div>
               </div>
               <!-- End Gauge Component -->
-                <div class="inline-flex gap-2 self-end rounded-sm bg-red-100 p-1 text-red-600">
+                <div class="inline-flex gap-2 self-center rounded-sm bg-red-100 p-1 text-red-600">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="size-4"
@@ -542,18 +540,18 @@
       />
     </svg>
 
-    <span class="text-xs font-medium"> 5 min </span>
+    <span class="text-xs font-medium">5 min </span>
   </div>
             </div>
 
-            <div>
+            <div class="flex flex-col">
               <span class="text-gray-500 uppercase text-sm">holding</span>
               <!-- Gauge Component -->
               <div class="relative size-16">
                 <svg class="rotate-[135deg] size-full" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
                   <!-- Background Circle (Gauge) -->
-                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-400 dark:text-purple-700" stroke-width="1" stroke-dasharray="60, 100"></circle>
-                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-yellow-500 dark:text-purple-700" stroke-width="3" stroke-dasharray="44, 100"></circle>
+                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-500" stroke-width="1" stroke-dasharray="60, 100"></circle>
+                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-yellow-500" stroke-width="3" stroke-dasharray="44, 100"></circle>
                   <!-- Gauge Progress -->
                 </svg>
                 <!-- Value Text -->
@@ -563,7 +561,7 @@
                 </div>
               </div>
               <!-- End Gauge Component -->
-                              <div class="inline-flex gap-2 self-end rounded-sm bg-red-100 p-1 text-red-600">
+                              <div class="inline-flex gap-2 self-center rounded-sm bg-red-100 p-1 text-red-600">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="size-4"
@@ -583,14 +581,14 @@
   </div>
             </div>
 
-                        <div>
+                        <div class="flex flex-col">
               <span class="text-gray-500 uppercase text-sm">arr. taxi</span>
               <!-- Gauge Component -->
               <div class="relative size-16">
                 <svg class="rotate-[135deg] size-full" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
                   <!-- Background Circle (Gauge) -->
-                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-400 dark:text-purple-700" stroke-width="2" stroke-dasharray="60, 100"></circle>
-                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-800 dark:text-purple-700" stroke-width="3" stroke-dasharray="8, 100"></circle>
+                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-500" stroke-width="1" stroke-dasharray="60, 100"></circle>
+                  <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-green-500" stroke-width="3" stroke-dasharray="8, 100"></circle>
                   <!-- Gauge Progress -->
                 </svg>
                 <!-- Value Text -->
@@ -600,7 +598,7 @@
                 </div>
               </div>
               <!-- End Gauge Component -->
-                              <div class="inline-flex gap-2 self-end rounded-sm bg-red-100 p-1 text-red-600">
+                              <div class="inline-flex gap-2 self-center rounded-sm bg-red-100 p-1 text-red-600">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="size-4"
@@ -700,5 +698,3 @@
   <!-- END MENU BOTTOM -->
 
 </div>
-
-</html>
