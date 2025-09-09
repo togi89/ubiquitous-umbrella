@@ -6,6 +6,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <style type="text/tailwindcss">
+  @media only screen and (orientation:portrait) {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
   @theme {
             --color-clifford: #ffffff;
         }
