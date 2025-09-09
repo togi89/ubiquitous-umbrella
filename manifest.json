@@ -2,11 +2,16 @@
   "name": "Hawaiian Flight Folder",
   "icons": [
     {
-      "src": "512.png",
+      "src": "icon-512x512.png",
       "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
+      "sizes": "512x512",
+    },
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+    },
+      ],
   "start_url": "https://togi89.github.io/ubiquitous-umbrella/",
   "display": "standalone",
   "prefer_related_applications": false,
