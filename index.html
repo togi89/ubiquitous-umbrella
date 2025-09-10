@@ -626,8 +626,79 @@
       </div>
 
       <!-- Alternate airport with fuel box-->
-      <div class="p-2 border-2 border-purple-800 col-start-2 rounded row-span-2 row-start-6" id="component-container"">
+      <div class="p-2 border-2 border-purple-800 col-start-2 rounded row-span-3 row-start-6" id="component-container"">
         <h1 class="text-lg font-bold">Alternate + CP + ETOPS</h1>
+        <div class="flex flex-row">
+          <div>
+            <span class="text-sm text-gray-500">FOD</span>
+            <span>VHHH</span>
+            <span class="font-semibold">5.5</span></div>
+        </div>
+        <div class="grid grid-cols-4 border-b-2 pb-2">
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">ALTERNATE</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">MDF</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">EXTRA</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">eta</span>
+          </div>
+          <div class="bg-gray-50 p-0.5">
+             <span class>VMMC</span>
+          </div>
+          <div class="bg-gray-50 p-0.5 ">
+             <span class="bg-gray-50 p-0.5 font-semibold">4.0</span>
+          </div>
+          <div class="bg-gray-50 p-0.5">
+             <span class="font-semibold">+1.5</span>
+          </div>
+          <div class="bg-gray-50 p-0.5 ">
+             <span class="font-semibold">1000z</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span>RCTP</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="bg-gray-100 p-0.5 font-semibold">7.5</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="text-amber-500 font-semibold">-4.5</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="font-semibold">1120z</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-4 text-sm mt-2">
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">ALTERNATE</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">type</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">margin</span>
+          </div>
+          <div class="">
+             <span class="text-sm text-gray-500 uppercase">eta</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span>ETP1</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="bg-gray-100 p-0.5 font-semibold">DPRESS</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="font-semibold">+15</span>
+          </div>
+          <div class="bg-gray-100 p-0.5">
+             <span class="font-semibold">0010z</span>
+          </div>
+        </div>
       </div>
       <!-- end of Alternate aiaport with fuel box -->
 
@@ -679,30 +750,25 @@
 </main>
 
 <!-- MENU BOTTOM -->
-<menu class="fixed bottom-0 left-0 w-full h-12 bg-purple-800">
+<menu class="fixed bottom-0 left-0 w-full h-16 bg-purple-800">
 
-  <div class="grid grid-cols-5 h-full max-w-xl mx-auto text-white font-semibold gap-5" id="Grid container of menu">
+  <div class="flex flex-row justify-center gap-5 text-white font-semibold" id="Grid container of menu">
 
-    <button type="button"
-      class="inline-flex flex-col h-full items-center justify-center self-center px-2 active:bg-purple-700 active:outline-2 border-t-8 border-t-purple-400">
+    <button type="button" class="inline-flex flex-col px-3 border-t-8 border-t-purple-400">
       <span>Pre-flight</span>
     </button>
 
-    <button type="button"
-      class="inline-flex flex-col h-full items-center justify-center self-center px-2 active:bg-purple-700 active:outline-2 border-t-8  border-t-current">
+    <button type="button" class="inline-flex flex-col px-3 border-t-8  border-t-transparent">
       <span>Departure</span>
     </button>
 
-    <button type="button"
-      class="inline-flex flex-col h-full w-fit items-center justify-center self-center px-2 active:bg-purple-700 active:outline-2 border-t-current">
+    <button type="button" class="inline-flex flex-col px-3 border-t-8 border-t-transparent">
       <span>Flight Log</span>
     </button>
 
-    <button type="button"
-      class="inline-flex flex-col h-full items-center justify-center self-center px-2 active:bg-purple-700 active:outline-2 border-t-purple-400">
+    <button type="button" class="inline-flex flex-col px-3 border-t-8 border-t-transparent">
       <span>Clearance</span>
     </button>
-
 
   </div>
 
