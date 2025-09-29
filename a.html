@@ -1,11 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Hawaiian Airlines Digital Dispatch Release</title>
-  </head>
+<head>
+<link rel="manifest" href="manifest.json" />
+
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+@media screen and (orientation: portrait) {
+  html {
+    transform: rotate(90deg);
+    transform-origin: right top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+}
+  @theme {
+            --color-clifford: #ffffff;
+        }
+        h4 {
+            font-weight:bold;
+        }
+  body {
+  touch-action: none;
+  }
+    </style>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
   <body>
     <section class="flex max-w-3xl mx-auto pt-5">
       <div class="">
@@ -30,7 +57,7 @@
     </section>
     <section class="flex flex-col w-3xl mx-auto">
       <div class="p-3 bg-indigo-500 w-full rounded-t mt-5 text-white font-mono text-center">
-        <strong class="tracking-widest">HAL1170 VHHH-PHNL </strong>&#8226; B717-200  &#8226; 15 Oct 2025 1100Z  	&#8226; Last updated 15 Oct 2025 1000Z
+        <strong class="tracking-widest">HAL1170 VHHH-PHNL </strong>&#8226; B717-200  &#8226; 15 Oct 2025 1100Z  	&#8226; Last updated 15 Oct 1000Z
       </div>
       <div class="flex flex-row gap-2 bg-gray-200 w-full text-white font-mono text-center">
         <button class="bg-gray-400 h-14 w-20 flex flex-col border-b-4 border-b-red-500 items-center">
