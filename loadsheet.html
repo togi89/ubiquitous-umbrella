@@ -123,15 +123,18 @@
     <div class="flex flex-col border-2 border-purple-800 rounded p-1 mb-1">
         <div class="flex flex-row justify-between items-center">
             <h1 class="text-xl font-semibold">Loadsheet</h1>
-            <a href="">
+            <a href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
                     <path d="M200-120q-33 0-56.5-23.5T120-200v-160h80v160h560v-560H200v160h-80v-160q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm220-160-56-58 102-102H120v-80h346L364-622l56-58 200 200-200 200Z"/></svg>
             </a>        
         </div>
     </div>
-    <div class="flex flex-row mb-1">
+    <!-- first row under loadsheet heading -->
+    <div class="flex flex-row mb-1 gap-1">
+
         <div class="flex flex-col border-2 border-purple-800 rounded p-1 text-sm space-y-1">
           <h3 class="p-1 font-bold tracking-wide">B712 - N123HA</h3>
+          <span class=" bg-yellow-200 w-fit p-0.5">FINAL EDNO 1</span>
           <div class="flex flex-row bg-purple-50 p-1">
             <span class="w-14 uppercase text-gray-700 font-semibold">PAX</span>
             <span class="w-14 uppercase font-semibold">200</span>
@@ -162,7 +165,28 @@
           </div>
         </div>
 
+        <div class="flex flex-col border-2 border-purple-800 rounded p-1 text-sm space-y-1 grow-0">
+          <div>
+            <span class="w-16 text-gray-400 inline-block">MRW </span>
+            <span>115.5</span>
+          </div>
+          <div>
+            <span class="w-16 text-gray-400 inline-block">MTOW </span>
+            <span>115.5</span>
+          </div>
+          <div>
+            <strong>LIMIT ZFW/MTOW</strong>
+          </div>
+          <div>
+            <input type="text" class="w-22 bg-green-400 p-0.5">
+          </div>
+          
+        </div>
+
     </div>
+
+<!-- /end first row under LS heading -->
+<section class="flex flex-row gap-2">
   <article class="w-72 border-2 p-1 font-mono text-sm">
     <!-- button and badge of loadsheet -->
     <div class="flex flex-row items-center justify-between border-b pb-1">
@@ -225,6 +249,43 @@
     <p>.5ELI/5RLM/REM/AVI</p>
   </article>
 
+  <article class="w-72 border-2 p-1 font-mono text-sm h-fit">
+    <!-- button and badge of loadsheet -->
+    <div class="flex flex-row items-center justify-between border-b pb-1">
+      <span class="w-fit">ACT WEIGHT</span>
+      <span class="text-sm uppercase">UPDATED 1030Z</span>
+    </div>
+    <div class="flex flex-row items-center border-b py-1">
+                 <button class="grow bg-yellow-400 px-5 py-1 font-semibold rounded-lg focus:ring-2 focus:ring-yellow-700">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" class="size-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+              </svg>
+              Pending Ack ACT WEIGHT
+            </button>
+    </div>
+    <!-- /button and bage of loadsheet -->
+    <!-- begin loadsheet section -->
+    <div class="py-3">
+      <p>LS/N123HA/HAL123</p>
+      <p>ACT ZFW&nbsp;&nbsp;</p>
+      <p>HNL&nbsp;LIH&nbsp;HAL123/26&nbsp;N123HA</p>
+      <p>F06E100&nbsp;2/3&nbsp;26SEP25</p>
+    </div>
+
+    <div>
+      <div class="flex flex-col">
+        <div class="flex flex-row">
+          <span class="w-20">ZFW</span>
+          <span class="w-18">150250</span>
+          <span class="w-16">POB</span>
+          <span class="bg-yellow-300">PAX 260</span>
+        </div>
+      </div>
+    </div>
+    <p>A155105/B1245905/C1055</p>
+    <p>.5ELI/5RLM/REM/AVI</p>
+  </article>
+</section>
 
   </main>
 
